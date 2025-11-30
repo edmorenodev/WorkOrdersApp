@@ -1,0 +1,266 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Tests/WorkOrdersApp.Tests.csproj": {}
+  },
+  "projects": {
+    "/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Core/WorkOrdersApp.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Core/WorkOrdersApp.Core.csproj",
+        "projectName": "WorkOrdersApp.Core",
+        "projectPath": "/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Core/WorkOrdersApp.Core.csproj",
+        "packagesPath": "/home/eddie/.nuget/packages/",
+        "outputPath": "/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/eddie/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Infrastructure/WorkOrdersApp.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Infrastructure/WorkOrdersApp.Infrastructure.csproj",
+        "projectName": "WorkOrdersApp.Infrastructure",
+        "projectPath": "/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Infrastructure/WorkOrdersApp.Infrastructure.csproj",
+        "packagesPath": "/home/eddie/.nuget/packages/",
+        "outputPath": "/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/eddie/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Core/WorkOrdersApp.Core.csproj": {
+                "projectPath": "/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Core/WorkOrdersApp.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Tests/WorkOrdersApp.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Tests/WorkOrdersApp.Tests.csproj",
+        "projectName": "WorkOrdersApp.Tests",
+        "projectPath": "/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Tests/WorkOrdersApp.Tests.csproj",
+        "packagesPath": "/home/eddie/.nuget/packages/",
+        "outputPath": "/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/eddie/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Core/WorkOrdersApp.Core.csproj": {
+                "projectPath": "/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Core/WorkOrdersApp.Core.csproj"
+              },
+              "/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Infrastructure/WorkOrdersApp.Infrastructure.csproj": {
+                "projectPath": "/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Infrastructure/WorkOrdersApp.Infrastructure.csproj"
+              },
+              "/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Web/WorkOrdersApp.Web.csproj": {
+                "projectPath": "/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Web/WorkOrdersApp.Web.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Web/WorkOrdersApp.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Web/WorkOrdersApp.Web.csproj",
+        "projectName": "WorkOrdersApp.Web",
+        "projectPath": "/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Web/WorkOrdersApp.Web.csproj",
+        "packagesPath": "/home/eddie/.nuget/packages/",
+        "outputPath": "/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Web/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/eddie/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Core/WorkOrdersApp.Core.csproj": {
+                "projectPath": "/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Core/WorkOrdersApp.Core.csproj"
+              },
+              "/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Infrastructure/WorkOrdersApp.Infrastructure.csproj": {
+                "projectPath": "/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Infrastructure/WorkOrdersApp.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
