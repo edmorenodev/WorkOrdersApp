@@ -1,0 +1,16 @@
+/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Infrastructure/bin/Debug/net8.0/WorkOrdersApp.Infrastructure.deps.json
+/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Infrastructure/bin/Debug/net8.0/WorkOrdersApp.Infrastructure.dll
+/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Infrastructure/bin/Debug/net8.0/WorkOrdersApp.Infrastructure.pdb
+/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Infrastructure/bin/Debug/net8.0/WorkOrdersApp.Core.dll
+/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Infrastructure/bin/Debug/net8.0/WorkOrdersApp.Core.pdb
+/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Infrastructure/obj/Debug/net8.0/WorkOrdersApp.Infrastructure.csproj.AssemblyReference.cache
+/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Infrastructure/obj/Debug/net8.0/WorkOrdersApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Infrastructure/obj/Debug/net8.0/WorkOrdersApp.Infrastructure.AssemblyInfoInputs.cache
+/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Infrastructure/obj/Debug/net8.0/WorkOrdersApp.Infrastructure.AssemblyInfo.cs
+/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Infrastructure/obj/Debug/net8.0/WorkOrdersApp.Infrastructure.csproj.CoreCompileInputs.cache
+/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Infrastructure/obj/Debug/net8.0/WorkOrdersApp.Infrastructure.sourcelink.json
+/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Infrastructure/obj/Debug/net8.0/WorkOrdersApp.Infrastructure.csproj.CopyComplete
+/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Infrastructure/obj/Debug/net8.0/WorkOrdersApp.Infrastructure.dll
+/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Infrastructure/obj/Debug/net8.0/refint/WorkOrdersApp.Infrastructure.dll
+/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Infrastructure/obj/Debug/net8.0/WorkOrdersApp.Infrastructure.pdb
+/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Infrastructure/obj/Debug/net8.0/ref/WorkOrdersApp.Infrastructure.dll
