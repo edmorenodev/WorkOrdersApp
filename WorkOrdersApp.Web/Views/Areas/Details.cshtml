@@ -1,0 +1,19 @@
+@model WorkOrdersApp.Core.Entities.Area
+@{
+    ViewData["Title"] = "Delete Area";
+    Layout = "_Layout";
+}
+
+<h2>Delete Area</h2>
+
+<h4>Are you sure you want to delete this?</h4>
+<div>
+    <h5>@Model.Name</h5>
+    <p>Work Orders Count: @(Model.WorkOrders?.Count ?? 0)</p>
+</div>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
