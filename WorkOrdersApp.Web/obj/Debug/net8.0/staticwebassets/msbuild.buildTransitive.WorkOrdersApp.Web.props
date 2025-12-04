@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/WorkOrdersApp.Web.props" />
+</Project>

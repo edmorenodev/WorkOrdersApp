@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WorkOrdersApp.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62bf8581cb538a3988b1761a48419cf8fef912a9")]
 [assembly: System.Reflection.AssemblyProductAttribute("WorkOrdersApp.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WorkOrdersApp.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

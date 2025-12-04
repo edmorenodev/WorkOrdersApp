@@ -1,0 +1,19 @@
+@model WorkOrdersApp.Core.Entities.WorkOrder
+@{
+    ViewData["Title"] = "Delete Work Order";
+    Layout = "_Layout";
+}
+
+<h2>Delete Work Order</h2>
+
+<h4>Are you sure you want to delete this?</h4>
+<div>
+    <h5>@Model.Title</h5>
+    <p>Area: @Model.Area?.Name</p>
+</div>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

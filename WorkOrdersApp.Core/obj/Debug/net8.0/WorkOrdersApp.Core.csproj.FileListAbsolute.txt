@@ -1,0 +1,12 @@
+/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Core/bin/Debug/net8.0/WorkOrdersApp.Core.deps.json
+/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Core/bin/Debug/net8.0/WorkOrdersApp.Core.dll
+/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Core/bin/Debug/net8.0/WorkOrdersApp.Core.pdb
+/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Core/obj/Debug/net8.0/WorkOrdersApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Core/obj/Debug/net8.0/WorkOrdersApp.Core.AssemblyInfoInputs.cache
+/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Core/obj/Debug/net8.0/WorkOrdersApp.Core.AssemblyInfo.cs
+/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Core/obj/Debug/net8.0/WorkOrdersApp.Core.csproj.CoreCompileInputs.cache
+/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Core/obj/Debug/net8.0/WorkOrdersApp.Core.sourcelink.json
+/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Core/obj/Debug/net8.0/WorkOrdersApp.Core.dll
+/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Core/obj/Debug/net8.0/refint/WorkOrdersApp.Core.dll
+/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Core/obj/Debug/net8.0/WorkOrdersApp.Core.pdb
+/home/eddie/Documents/Software/WorkOrdersApp/WorkOrdersApp.Core/obj/Debug/net8.0/ref/WorkOrdersApp.Core.dll

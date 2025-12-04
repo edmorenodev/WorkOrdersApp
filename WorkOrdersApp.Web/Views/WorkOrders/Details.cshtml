@@ -1,0 +1,23 @@
+@model WorkOrdersApp.Core.Entities.WorkOrder
+@{
+    ViewData["Title"] = "Work Order Details";
+    Layout = "_Layout";
+}
+
+<h2>Work Order Details</h2>
+
+<div class="mb-3">
+    <label>ID:</label> @Model.Id
+</div>
+<div class="mb-3">
+    <label>Title:</label> @Model.Title
+</div>
+<div class="mb-3">
+    <label>Area:</label> @Model.Area?.Name
+</div>
+<div class="mb-3">
+    <label>Created At:</label> @Model.CreatedAt.ToString("yyyy-MM-dd")
+</div>
+
+<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+<a asp-action="Index" class="btn btn-secondary">Back</a>

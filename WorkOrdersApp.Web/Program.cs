@@ -1,7 +1,17 @@
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+var connectionString = "Data Source=workorders.db";
+
+builder.Services.AddDbContext<WorkOrdersApp.Infrastructure.Data.AppDbContext>(options =>
+    options.UseSqlite(connectionString)
+);
+
+builder.Services.AddScoped<IWorkOrderRepository, WorkOrderRepository>();
 
 var app = builder.Build();
 

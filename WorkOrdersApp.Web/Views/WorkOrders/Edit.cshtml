@@ -1,0 +1,27 @@
+@model WorkOrdersApp.Core.Entities.WorkOrder
+@{
+    ViewData["Title"] = "Edit Work Order";
+    Layout = "_Layout";
+}
+
+<h2>Edit Work Order</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+    <div class="mb-3">
+        <label asp-for="Title" class="form-label"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="AreaId" class="form-label"></label>
+        <select asp-for="AreaId" class="form-select" asp-items="ViewBag.Areas"></select>
+        <span asp-validation-for="AreaId" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-success">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}
